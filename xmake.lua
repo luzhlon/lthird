@@ -86,3 +86,11 @@ target 'luasql_sqlite3'
 
     add_includedirs 'libs/sqlite3/inc'
     add_linkdirs 'libs/sqlite3/$(arch)'
+
+target 'lsqlite3'
+    set_kind 'shared'
+    add_files 'lsqlite3/*.c'
+
+    add_defines('LSQLITE_VERSION="0.9.4"')
+    -- add_defines('luaopen_lsqlite3=luaopen_lsqlite3complete')
+    add_shflags('/DEF:lsqlite3/lsqlite3.def', {force = true})
