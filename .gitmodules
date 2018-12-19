@@ -1,0 +1,15 @@
+[submodule "lua-winreg"]
+	path = lua-winreg
+	url = https://github.com/moteus/lua-winreg.git
+[submodule "luasocket"]
+	path = luasocket
+	url = https://github.com/diegonehab/luasocket
+[submodule "lua-environ"]
+	path = lua-environ
+	url = https://github.com/moteus/lua-environ
+[submodule "luasql"]
+	path = luasql
+	url = https://github.com/keplerproject/luasql
+[submodule "luafilesystem"]
+	path = luafilesystem
+	url = https://github.com/keplerproject/luafilesystem
